@@ -3233,6 +3233,7 @@ MonoBehaviour:
   speed: 15
   jumpSpeed: 8
   gravity: 20
+  camera: {fileID: 0}
   gaugeImage: {fileID: 0}
 --- !u!114 &11409782
 MonoBehaviour:
