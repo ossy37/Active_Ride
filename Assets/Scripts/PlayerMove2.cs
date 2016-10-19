@@ -10,9 +10,11 @@ public class PlayerMove2 : MonoBehaviour {
 	public float jumpSpeed = 8.0F;
 	public float gravity = 20.0F;
 	private Vector3 moveDirection = Vector3.zero;
-	
+
+	CharacterController controller;
+
 	int boostPoint;
-	int boostPointMax = 100;
+	int boostPointMax = 50;
 	
 	public Image gaugeImage;
 	
@@ -29,17 +31,19 @@ public class PlayerMove2 : MonoBehaviour {
 	void Start () {
 	
 		boostPoint = boostPointMax;
-		
+
 		moveSpeed = Vector3.zero;
 			
 		isBoost = false;
+
+		controller = GetComponent<CharacterController> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
 		//プレイヤーを移動させる
-		CharacterController controller = GetComponent<CharacterController>();
+		//CharacterController controller = GetComponent<CharacterController>();
 
 		/*
 		if (controller.isGrounded) {

@@ -31,7 +31,7 @@ public class PlayerAp2 : MonoBehaviour {
 		displayArmorPoint = armorPoint;
 
 		//ゲーム開始時にはノイズを無効にする
-		Camera.main.GetComponent<NoiseAndScratches> ().enabled = false;
+		MainCamera2.GetComponent<NoiseAndScratches> ().enabled = false;
 	}
 
 	// Update is called once per frame
@@ -73,7 +73,6 @@ public class PlayerAp2 : MonoBehaviour {
 		if (collider.gameObject.tag == "Shot") {
 			armorPoint -= damage;
 			armorPoint = Mathf.Clamp(armorPoint, 0, armorPointMax);
-			Debug.Log ("uni");
 		}
 	}
 

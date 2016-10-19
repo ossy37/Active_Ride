@@ -9,6 +9,9 @@ TagManager:
   - ShotEnemy
   - Shot2
   - Player2
+  - Ground
+  - ground
+  - New Tag
   layers:
   - Default
   - TransparentFX

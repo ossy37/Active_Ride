@@ -64,6 +64,8 @@ public class PlayerAp1 : MonoBehaviour {
 
 		//ゲージの長さを体力の割合に合わせて伸縮させる
 		gaugeImage.transform.localScale = new Vector3(percentageArmorpoint, 1, 1);
+
+
 	}
 
 	private void OnCollisionEnter(Collision collider) {
@@ -71,7 +73,6 @@ public class PlayerAp1 : MonoBehaviour {
 		if (collider.gameObject.tag == "Shot2") {
 			armorPoint -= damage;
 			armorPoint = Mathf.Clamp(armorPoint, 0, armorPointMax);
-			Debug.Log ("あ");
 		}
 	}
 

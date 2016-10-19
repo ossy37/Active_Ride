@@ -67,7 +67,6 @@ public class PlayerAp : MonoBehaviour {
 	}
 
 	private void OnCollisionEnter(Collision collider) {
-		Debug.Log ("あ？");
 		//敵の弾と衝突したらダメージ
 		if (collider.gameObject.tag == "ShotEnemy") {
 			armorPoint -= damage;

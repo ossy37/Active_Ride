@@ -47,7 +47,7 @@ public class PlayerMove1 : MonoBehaviour {
 
 
 		//プレイヤーを移動させる
-		CharacterController controller = GetComponent<CharacterController> ();
+
 		if (flag == 0) {
 			/*
 		if (controller.isGrounded) {
@@ -155,8 +155,11 @@ public class PlayerMove1 : MonoBehaviour {
 				moveDirection.y -= gravity * Time.deltaTime;
 			}
 
-			if (!Input.GetButton ("Boost") && !Input.GetButton ("Jump"))
+			//ブーストゲージ回復
+			if (!Input.GetButton ("Boost") && !Input.GetButton ("Jump") && controller.isGrounded) {
 				boostPoint += 2;
+			}
+
 
 			boostPoint = Mathf.Clamp (boostPoint, 0, boostPointMax);
 
@@ -188,4 +191,6 @@ public class PlayerMove1 : MonoBehaviour {
 		}
 
 	}
+
 }
+	

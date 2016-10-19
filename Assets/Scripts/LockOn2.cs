@@ -25,7 +25,7 @@ public class LockOn2 : MonoBehaviour {
 	void Update () {
 
 		//ターゲットを取得する
-		target = GameObject.Find("PlayerTarget");
+		target = GameObject.Find("PlayerTarget1");
 
 		//スムーズにターゲットの方向を向く
 		Quaternion targetRotation = Quaternion.LookRotation (target.transform.position - transform.position);
