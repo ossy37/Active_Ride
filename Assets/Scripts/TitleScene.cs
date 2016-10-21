@@ -11,7 +11,7 @@ public class TitleScene : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        ModalWindow.SetActive(false);
+        //ModalWindow.SetActive(false);
     }
 
     // Update is called once per frame
@@ -20,13 +20,7 @@ public class TitleScene : MonoBehaviour {
 		//ボタンを押したら遷移
 		if (Input.anyKeyDown) {
 
-            //モーダルダイアログの表示
-            if (ModalDiagloFrag)
-            {
-                ModalWindow.SetActive(true);
-                ModalDiagloFrag = false;
-            }
-			//Application.LoadLevel("Main");
+			Application.LoadLevel("SelectMenu");
 		}
 		
 		//ボタンを押させるためのメッセージを点滅させる
