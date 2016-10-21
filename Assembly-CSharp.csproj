@@ -74,7 +74,7 @@
      <Compile Include="Assets\Scripts\PlayerMove1.cs" />
      <Compile Include="Assets\Scripts\PlayerMove2.cs" />
      <Compile Include="Assets\Scripts\PlayerRotate.cs" />
-     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
+     <Compile Include="Assets\Scripts\PlayerShoot1.cs" />
      <Compile Include="Assets\Scripts\PlayerShoot2.cs" />
      <Compile Include="Assets\Scripts\ScreenOverlayManager.cs" />
      <Compile Include="Assets\Scripts\ScreenOverlayManager1.cs" />
@@ -83,7 +83,6 @@
      <Compile Include="Assets\Scripts\ShotPlayer1.cs" />
      <Compile Include="Assets\Scripts\ShotPlayer2.cs" />
      <Compile Include="Assets\Scripts\TitleScene.cs" />
-     <Compile Include="Assets\Scripts\bigGUN.cs" />
      <Compile Include="Assets\Scripts\lose1.cs" />
      <Compile Include="Assets\Scripts\lose2.cs" />
      <Compile Include="Assets\SelectScene\MainCameraController.cs" />

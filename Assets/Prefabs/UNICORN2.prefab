@@ -110,6 +110,7 @@ GameObject:
   - 4: {fileID: 461832}
   - 33: {fileID: 3349856}
   - 23: {fileID: 2367606}
+  - 114: {fileID: 11406622}
   m_Layer: 12
   m_Name: wall01_azalea:waist
   m_TagString: Untagged
@@ -1612,7 +1613,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 110560}
   m_LocalRotation: {x: 0.03012258, y: 0.9667948, z: -0.13587417, w: 0.21433328}
-  m_LocalPosition: {x: -3.5, y: 7.5, z: 10}
+  m_LocalPosition: {x: -2.7, y: 6.9, z: 8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402180}
@@ -1716,9 +1717,9 @@ Camera:
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.5
     y: 0
-    width: 1
+    width: 0.5
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -3446,6 +3447,17 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
+--- !u!114 &11406622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aea41b9d28145f1438d3b4e6fdbc9451, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11408236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3518,7 +3530,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 171514}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fd999d1b2cf94a45a5b0a47ce074bef, type: 3}
   m_Name: 
@@ -3654,7 +3666,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 171514}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a88a26a276b4e47619ce2c5adad33fab, type: 3}
   m_Name: 
@@ -3712,7 +3724,7 @@ MonoBehaviour:
   velocityDownsample: 1
   excludeLayers:
     serializedVersion: 2
-    m_Bits: 2304
+    m_Bits: 6400
   shader: {fileID: 4800000, guid: 85a88efa8c871af4a9d17c64791b6f4f, type: 3}
   dx11MotionBlurShader: {fileID: 4800000, guid: f1b13d7a80660504a858ea24cfa418c6,
     type: 3}
@@ -3727,7 +3739,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 171514}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd70d448b18cfbc46af26466f752332c, type: 3}
   m_Name: 
@@ -3844,9 +3856,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   armorText: {fileID: 0}
   MainCamera2: {fileID: 2047556}
-  myWhite: {r: 1, g: 1, b: 1, a: 1}
-  myYellow: {r: 0, g: 0, b: 0, a: 1}
-  myRed: {r: 0, g: 0, b: 0, a: 1}
+  myWhite: {r: 0, g: 1, b: 0.5882353, a: 1}
+  myYellow: {r: 1, g: 0.78431374, b: 0, a: 1}
+  myRed: {r: 1, g: 0, b: 0, a: 1}
   gaugeImage: {fileID: 0}
 --- !u!114 &11470812
 MonoBehaviour:

@@ -150,9 +150,11 @@ public class PlayerMove2 : MonoBehaviour {
 
 			moveDirection.y -= gravity * Time.deltaTime;
 		}
-		
-		if (!Input.GetButton ("Boost2")  && !Input.GetButton ("Jump2"))
+
+		//ブーストゲージ回復
+		if (!Input.GetButton ("Boost2") && !Input.GetButton ("Jump2") && controller.isGrounded) {
 			boostPoint += 2;
+		}
 
 		boostPoint = Mathf.Clamp(boostPoint, 0, boostPointMax);
 		
