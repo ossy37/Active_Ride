@@ -11,7 +11,7 @@ public class TitleScene : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        ModalWindow.SetActive(false);
+        //ModalWindow.SetActive(false);
     }
 
     // Update is called once per frame

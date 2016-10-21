@@ -29,6 +29,30 @@ public class CanvasRotate : MonoBehaviour {
     private Quaternion targetRotation;
 
     private static float angle_z = 0;
+
+    private void SceneManager(int index)
+    {
+        switch (index)
+        {
+            case 0:
+                Application.LoadLevel("Main");
+                break;
+            case 1:
+                Application.LoadLevel("Main");
+                break;
+            case 2:
+                Application.LoadLevel("Title");
+                break;
+            case 3:
+                Application.LoadLevel("Title");
+                break;
+            case 4:
+                Application.LoadLevel("Title");
+                break;
+            default: break;
+
+        }
+    }
     private int CheckViewDescriptions(float angle)
     {
         int index = 0;
@@ -38,19 +62,19 @@ public class CanvasRotate : MonoBehaviour {
         }
         if ((angle_z >= 36) && (angle_z < 108))
         {
-            index = 1;
+            index = 4;
         }
         if ((angle_z >= 108) && (angle_z < 180))
         {
-            index = 2;
+            index = 3;
         }
         if ((angle_z >= 180) && (angle_z < 252))
         {
-            index = 3;
+            index = 2;
         }
         if ((angle_z >= 252) && (angle_z < 324))
         {
-            index = 4;
+            index = 1;
         }
 
         return index;
@@ -108,9 +132,35 @@ public class CanvasRotate : MonoBehaviour {
 
         dIndex = CheckViewDescriptions(angle_z);
         Debug.Log(dIndex);
-        Descript[dIndex].description.transform.SetAsLastSibling();
+        foreach (var d in Descript) {
 
+            if (d.index == dIndex)
+            {
+                Vector3 pos = d.description.transform.position;
+                if (pos.x > 0) {
+                    pos.x -= 20;
+                    d.description.transform.position = pos;
+                }
+                d.description.transform.SetAsLastSibling();
+            }
+            else
+            {
+                Vector3 pos = d.description.transform.position;
+                pos.x = 500;
+                d.description.transform.position = pos;
+            }
+        }
 
+        //シーン遷移
+        if(Input.GetKeyUp(KeyCode.Return)  || Input.GetMouseButtonUp(0))
+        {
+            SceneManager(dIndex);
+        }
+
+    }
+    IEnumerator wait()
+    {
+        yield return new WaitForSeconds(0.01f);
     }
 }
 
@@ -118,9 +168,11 @@ public class CanvasRotate : MonoBehaviour {
 public class DescriptMenu
 {
 	public GameObject description;
+    public int index;
 }
 [System.Serializable]
 public class ButtonMenu
 {
     public GameObject button;
 }
+
