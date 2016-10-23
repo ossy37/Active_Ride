@@ -103,14 +103,14 @@ public class CanvasRotate : MonoBehaviour {
 
         //TODO: マウスホイールにも対応する?
         if (Input.GetKeyUp(KeyCode.DownArrow) ||
-            (Input.GetAxis("Mouse ScrollWheel") != 0 && (Input.GetAxis("Mouse ScrollWheel")) <= 0 ) )
+            (Input.GetAxis("Mouse ScrollWheel") < 0f ) )
         {
             //Descriptions.transform.Rotate(new Vector3(90, 0, 0));    
             RotateFlag_plus = true;
             //rigidbody2D.anglarVelocity();
         }
 		if (Input.GetKeyUp(KeyCode.UpArrow) ||
-            ( Input.GetAxis("Mouse ScrollWheel") != 0 && (Input.GetAxis("Mouse ScrollWheel")) >= 0 ) )
+            ( Input.GetAxis("Mouse ScrollWheel") > 0f ) )
         {
             //Buttons.transform.Rotate(Time.deltaTime, 0, 0);
             //Buttons.transform.Rotate(new Vector3(0, 0, -72) , 50f * Time.deltaTime);
