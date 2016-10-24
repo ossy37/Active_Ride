@@ -35,19 +35,34 @@ public class CanvasRotate : MonoBehaviour {
         switch (index)
         {
             case 0:
-                Application.LoadLevel("Main");
+                CameraFade.StartAlphaFade(Color.black, false, 0.3f, 0.3f, () =>
+                {
+                    Application.LoadLevel("Main");
+                });
                 break;
             case 1:
-                Application.LoadLevel("Main");
+                CameraFade.StartAlphaFade(Color.black, false, 0.3f, 0.3f, () =>
+                {
+                    Application.LoadLevel("Main");
+                });
                 break;
             case 2:
-                Application.LoadLevel("Title");
+                CameraFade.StartAlphaFade(Color.black, false, 0.3f, 0.3f, () =>
+                {
+                    Application.LoadLevel("SelectMenu");
+                });
                 break;
             case 3:
-                Application.LoadLevel("Title");
+                CameraFade.StartAlphaFade(Color.black, false, 0.3f, 0.3f, () =>
+                {
+                    Application.LoadLevel("SelectMenu");
+                });
                 break;
             case 4:
-                Application.LoadLevel("Title");
+                CameraFade.StartAlphaFade(Color.black, false, 0.3f, 0.3f, () =>
+                {
+                    Application.LoadLevel("SelectMenu");
+                });
                 break;
             default: break;
 
@@ -87,24 +102,27 @@ public class CanvasRotate : MonoBehaviour {
     void Update () {
 
         //TODO: マウスホイールにも対応する?
-        if (Input.GetKeyUp(KeyCode.DownArrow)) {
+        if (Input.GetKeyUp(KeyCode.DownArrow) ||
+            (Input.GetAxis("Mouse ScrollWheel") < 0f ) )
+        {
             //Descriptions.transform.Rotate(new Vector3(90, 0, 0));    
             RotateFlag_plus = true;
             //rigidbody2D.anglarVelocity();
         }
-		if (Input.GetKeyUp(KeyCode.UpArrow)) {
+		if (Input.GetKeyUp(KeyCode.UpArrow) ||
+            ( Input.GetAxis("Mouse ScrollWheel") > 0f ) )
+        {
             //Buttons.transform.Rotate(Time.deltaTime, 0, 0);
             //Buttons.transform.Rotate(new Vector3(0, 0, -72) , 50f * Time.deltaTime);
             float anglez = Buttons.transform.localEulerAngles.z;
             //Debug.Log(anglez);
             targetRotation = Quaternion.Euler(0, 0 ,anglez-72);
-            //Descriptions.transform.Rotate(new Vector3(90, 0, 0));    
-            //Buttons.transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 10 * smooth_move * Time.deltaTime);
+
             RotateFlag_minus = true;
         }
 
         angle_z = Buttons.transform.localEulerAngles.z;
-        //dIndex = CheckViewDescriptions(angle_z);
+
 
         if (RotateFlag_plus)
         {
