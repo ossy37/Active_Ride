@@ -34,10 +34,18 @@ public class TitleScene : MonoBehaviour {
 	
 		//ボタンを押したら遷移
 		if (Input.anyKeyDown) {
+<<<<<<< HEAD
 
 			Application.LoadLevel("SelectMenu");
 >>>>>>> origin/motttey/ui-modify
 		}
+=======
+            CameraFade.StartAlphaFade(Color.black, false, 0.3f, 0.3f, () =>
+            {
+                Application.LoadLevel("SelectMenu");
+            });
+        }
+>>>>>>> origin/master
 		
 		//ボタンを押させるためのメッセージを点滅させる
 		blinkText.color = new Color(1, 1, 1, Mathf.PingPong(Time.time, 1));
