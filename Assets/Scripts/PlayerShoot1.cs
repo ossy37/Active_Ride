@@ -3,6 +3,8 @@ using System.Collections;
 
 public class PlayerShoot1 : MonoBehaviour {
 
+	public Camera MainCamera1;
+
 	public GameObject shot;
 	public GameObject muzzle;
 	public GameObject muzzle1;
@@ -10,6 +12,7 @@ public class PlayerShoot1 : MonoBehaviour {
 	public GameObject muzzle3;
 	public GameObject muzzle4;
 	public GameObject muzzleFlash;
+
 	
 	float shotInterval = 0;
 	float shotIntervalMax = 0.5F;
@@ -32,11 +35,11 @@ public class PlayerShoot1 : MonoBehaviour {
 			
 			//弾を発射する
 			if( Input.GetButton("Fire1") ){
-				Instantiate(shot, muzzle.transform.position, Camera.main.transform.rotation);
-				Instantiate(shot, muzzle1.transform.position, Camera.main.transform.rotation);
-				Instantiate(shot, muzzle2.transform.position, Camera.main.transform.rotation);
-				Instantiate(shot, muzzle3.transform.position, Camera.main.transform.rotation);
-				Instantiate(shot, muzzle4.transform.position, Camera.main.transform.rotation);
+				Instantiate(shot, muzzle.transform.position, MainCamera1.transform.rotation);
+				Instantiate(shot, muzzle1.transform.position, MainCamera1.transform.rotation);
+				Instantiate(shot, muzzle2.transform.position, MainCamera1.transform.rotation);
+				Instantiate(shot, muzzle3.transform.position, MainCamera1.transform.rotation);
+				Instantiate(shot, muzzle4.transform.position, MainCamera1.transform.rotation);
 				shotInterval = 0;
 				
 				//マズルフラッシュを表示する

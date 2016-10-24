@@ -1,0 +1,37 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerShoot2.cs">
+    <Files>
+      <File FileName="Assets\Scripts\LockOn1.cs" Line="10" Column="28" />
+      <File FileName="Assets\Scripts\ShotPlayer2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LockOn2.cs" Line="35" Column="18" />
+      <File FileName="Assets\Scripts\CamVibrationManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Compass.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LockOn.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\lose1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\lose2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Marker.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Marker1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Marker2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ParticleAutoDestroy.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerAp.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerAp1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerMotion.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerMotion1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerMotion2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerMove1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerRotate.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerShoot1.cs" Line="39" Column="1" />
+      <File FileName="Assets\Scripts\ScreenOverlayManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ShotEnemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ShotPlayer1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TitleScene.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerShoot2.cs" Line="41" Column="62" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

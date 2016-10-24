@@ -80,13 +80,11 @@ GameObject:
   - 114: {fileID: 11453674}
   - 114: {fileID: 11408236}
   - 114: {fileID: 11487974}
-  - 114: {fileID: 11429066}
   - 114: {fileID: 11410038}
   - 114: {fileID: 11486816}
   - 114: {fileID: 11439302}
   - 114: {fileID: 11471158}
   - 114: {fileID: 11482878}
-  - 114: {fileID: 11490220}
   - 114: {fileID: 11456228}
   - 114: {fileID: 11479912}
   - 114: {fileID: 11498238}
@@ -364,7 +362,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 454190}
   m_Layer: 12
-  m_Name: CameraParent2
+  m_Name: CameraParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -988,7 +986,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 103736}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1.2, y: 1, z: 1}
   m_Children:
   - {fileID: 422612}
@@ -3530,7 +3528,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 171514}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fd999d1b2cf94a45a5b0a47ce074bef, type: 3}
   m_Name: 
@@ -3666,7 +3664,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 171514}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a88a26a276b4e47619ce2c5adad33fab, type: 3}
   m_Name: 
@@ -3683,24 +3681,6 @@ MonoBehaviour:
   scratchTexture: {fileID: 2800000, guid: 6205c27cc031f4e66b8ea90d1bfaa158, type: 3}
   shaderRGB: {fileID: 4800000, guid: 5d7f4c401ae8946bcb0d6ff68a9e7466, type: 3}
   shaderYUV: {fileID: 4800000, guid: 0e447868506ba49f0a73235b8a8b647a, type: 3}
---- !u!114 &11429066
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 103736}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1d0f95964310794999c556b7b25c2ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shot: {fileID: 157144, guid: 3200dee3a95bda945a11c6b7ad753785, type: 2}
-  muzzle: {fileID: 128058}
-  muzzle1: {fileID: 0}
-  muzzle2: {fileID: 0}
-  muzzle3: {fileID: 0}
-  muzzle4: {fileID: 0}
-  muzzleFlash: {fileID: 152448, guid: f21f3b7ba967231478259de6aa3d5e85, type: 2}
 --- !u!114 &11431630
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3739,7 +3719,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 171514}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd70d448b18cfbc46af26466f752332c, type: 3}
   m_Name: 
@@ -4084,21 +4064,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750ce0e97344ee547aa8aeef31a56493, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11490220
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 103736}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe29795e3ac27bc4aabb89feae17e4c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shot: {fileID: 157144, guid: e8ec439bbb10b4942a8b3cecca8acfa3, type: 2}
-  muzzle: {fileID: 128058}
-  muzzleFlash: {fileID: 152448, guid: f21f3b7ba967231478259de6aa3d5e85, type: 2}
-  cam2: {fileID: 2047556}
 --- !u!114 &11492820
 MonoBehaviour:
   m_ObjectHideFlags: 1
