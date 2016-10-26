@@ -23,7 +23,16 @@ public class CanvasRotate : MonoBehaviour {
 		dIndex = 0;
 		bIndex = 0;
         targetRotation = transform.rotation;
-	}
+
+        //Patch Work (need to fix)
+        foreach (var d in Descript)
+        {
+            Vector3 pos = d.description.transform.position;
+            pos.x = 400;
+            d.description.transform.position = pos;
+
+        }
+    }
 
     public float smooth_move = 1.5f;
     private Quaternion targetRotation;
@@ -164,7 +173,7 @@ public class CanvasRotate : MonoBehaviour {
             else
             {
                 Vector3 pos = d.description.transform.position;
-                pos.x = 500;
+                pos.x = 400;
                 d.description.transform.position = pos;
             }
         }
