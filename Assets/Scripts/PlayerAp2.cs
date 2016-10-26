@@ -10,8 +10,6 @@ public class PlayerAp2 : MonoBehaviour {
 	public static int armorPoint;
 	public static int armorPointMax = 5000;
 
-	int damage = 1000;
-
 	public Text armorText;
 
 	int displayArmorPoint;
@@ -31,7 +29,7 @@ public class PlayerAp2 : MonoBehaviour {
 		displayArmorPoint = armorPoint;
 
 		//ゲーム開始時にはノイズを無効にする
-		Camera.main.GetComponent<NoiseAndScratches> ().enabled = false;
+		MainCamera2.GetComponent<NoiseAndScratches> ().enabled = false;
 	}
 
 	// Update is called once per frame
@@ -70,14 +68,25 @@ public class PlayerAp2 : MonoBehaviour {
 
 	private void OnCollisionEnter(Collision collider) {
 		//敵の弾と衝突したらダメージ
-		if (collider.gameObject.tag == "Shot") {
-			armorPoint -= damage;
+
+		if (collider.gameObject.tag == "Shot_B") {
+			armorPoint -= ShotPlayer_B1.damage;
 			armorPoint = Mathf.Clamp(armorPoint, 0, armorPointMax);
-			Debug.Log ("uni");
+		}
+
+		if (collider.gameObject.tag == "Shot_U") {
+			armorPoint -= ShotPlayer_U1.damage;
+			armorPoint = Mathf.Clamp(armorPoint, 0, armorPointMax);
+		}
+
+		if (collider.gameObject.tag == "Shot3") {
+			armorPoint -= ShotPlayer_P1.damage;
+			armorPoint = Mathf.Clamp(armorPoint, 0, armorPointMax);
 		}
 	}
 
 	//敵とのあたり判定
+	/*
 	void OnControllerColliderHit(ControllerColliderHit hit){
 		if (hit.gameObject.tag == "Enemy") {
 			if (PlayerMove.flag == 0) {
@@ -90,4 +99,5 @@ public class PlayerAp2 : MonoBehaviour {
 			}
 		}
 	}
+	*/
 }

@@ -14,7 +14,7 @@ public class Marker2 : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		
-		target = GameObject.Find("PlayerTarget");
+		target = GameObject.Find("PlayerTarget1");
 	
 		//マーカーをレーダー（コンパス）上に表示する
 		compass = GameObject.Find ("CompassMask");

@@ -5,10 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
-  - Shot
+  - Shot_B
   - ShotEnemy
-  - Shot2
+  - Shot_U
   - Player2
+  - Ground
+  - Shot_P
   layers:
   - Default
   - TransparentFX
