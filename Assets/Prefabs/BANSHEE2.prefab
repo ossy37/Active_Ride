@@ -8,7 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 408872}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: muzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ GameObject:
   - 4: {fileID: 449852}
   - 33: {fileID: 3316832}
   - 23: {fileID: 2398244}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 25cn:base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 421874}
   - 33: {fileID: 3391558}
   - 23: {fileID: 2332594}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_back:rightLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +59,7 @@ GameObject:
   - 4: {fileID: 456518}
   - 33: {fileID: 3344350}
   - 23: {fileID: 2341404}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_back:top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ GameObject:
   - 4: {fileID: 435828}
   - 33: {fileID: 3347994}
   - 23: {fileID: 2320948}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Ruparm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 471258}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +112,7 @@ GameObject:
   - 81: {fileID: 8190686}
   - 114: {fileID: 11424074}
   - 114: {fileID: 11411622}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: Result Camera2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ GameObject:
   - 4: {fileID: 424350}
   - 33: {fileID: 3365638}
   - 23: {fileID: 2345064}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_waist:leftWingLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,7 +146,7 @@ GameObject:
   - 4: {fileID: 493018}
   - 33: {fileID: 3348152}
   - 23: {fileID: 2336626}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Lthigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   - 4: {fileID: 431436}
   - 33: {fileID: 3334790}
   - 23: {fileID: 2386422}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 66etc:Layer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 463908}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: muzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ GameObject:
   - 4: {fileID: 493566}
   - 33: {fileID: 3377128}
   - 23: {fileID: 2341008}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_waist:right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +212,7 @@ GameObject:
   - 4: {fileID: 458044}
   - 33: {fileID: 3372968}
   - 23: {fileID: 2308370}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   - 4: {fileID: 438298}
   - 33: {fileID: 3323286}
   - 23: {fileID: 2378310}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_waist:left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,7 +246,7 @@ GameObject:
   - 4: {fileID: 486990}
   - 33: {fileID: 3365776}
   - 23: {fileID: 2360284}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Rleg_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   - 4: {fileID: 464182}
   - 33: {fileID: 3355758}
   - 23: {fileID: 2376664}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Rshoulder_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ GameObject:
   - 4: {fileID: 469204}
   - 33: {fileID: 3336428}
   - 23: {fileID: 2396106}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Lthigh_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -297,7 +297,7 @@ GameObject:
   - 4: {fileID: 412878}
   - 33: {fileID: 3397218}
   - 23: {fileID: 2326998}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Lshoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ GameObject:
   - 4: {fileID: 448102}
   - 33: {fileID: 3366304}
   - 23: {fileID: 2368494}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_waist:rightWingLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -331,7 +331,7 @@ GameObject:
   - 4: {fileID: 403722}
   - 33: {fileID: 3380956}
   - 23: {fileID: 2358824}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_back:baseLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +348,7 @@ GameObject:
   - 4: {fileID: 418180}
   - 33: {fileID: 3334658}
   - 23: {fileID: 2374072}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Lleg_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,13 +380,14 @@ GameObject:
   - 114: {fileID: 11401358}
   - 114: {fileID: 11431092}
   - 114: {fileID: 11454382}
-  m_Layer: 12
+  - 114: {fileID: 11428212}
+  m_Layer: 8
   m_Name: BANSHEE2
   m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &134244
 GameObject:
   m_ObjectHideFlags: 1
@@ -397,7 +398,7 @@ GameObject:
   - 4: {fileID: 425502}
   - 33: {fileID: 3312258}
   - 23: {fileID: 2394110}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_back:left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,7 +415,7 @@ GameObject:
   - 4: {fileID: 417022}
   - 33: {fileID: 3335962}
   - 23: {fileID: 2390864}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:belly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -431,7 +432,7 @@ GameObject:
   - 4: {fileID: 442926}
   - 33: {fileID: 3342038}
   - 23: {fileID: 2344904}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Rleg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -457,7 +458,7 @@ GameObject:
   - 114: {fileID: 11441030}
   - 114: {fileID: 11416934}
   - 114: {fileID: 11452764}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: Main Camera2
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -474,7 +475,7 @@ GameObject:
   - 4: {fileID: 454584}
   - 33: {fileID: 3387480}
   - 23: {fileID: 2302978}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_waist:base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +492,7 @@ GameObject:
   - 4: {fileID: 475728}
   - 33: {fileID: 3377218}
   - 23: {fileID: 2318570}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_waist:rightLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -508,7 +509,7 @@ GameObject:
   - 4: {fileID: 463848}
   - 33: {fileID: 3327662}
   - 23: {fileID: 2358694}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_waist:leftLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -525,7 +526,7 @@ GameObject:
   - 4: {fileID: 473392}
   - 33: {fileID: 3309456}
   - 23: {fileID: 2377008}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 25cn:tailLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -542,7 +543,7 @@ GameObject:
   - 4: {fileID: 417814}
   - 33: {fileID: 3308178}
   - 23: {fileID: 2321698}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Rleg_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -557,7 +558,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 439958}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: muzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -574,7 +575,7 @@ GameObject:
   - 4: {fileID: 413862}
   - 33: {fileID: 3319814}
   - 23: {fileID: 2327318}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:head_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -590,7 +591,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 413848}
   - 108: {fileID: 10855704}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: BoostLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -607,7 +608,7 @@ GameObject:
   - 4: {fileID: 467808}
   - 33: {fileID: 3329280}
   - 23: {fileID: 2301002}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_back:leftLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -624,7 +625,7 @@ GameObject:
   - 4: {fileID: 405524}
   - 33: {fileID: 3323254}
   - 23: {fileID: 2392190}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:waist_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -641,7 +642,7 @@ GameObject:
   - 4: {fileID: 479934}
   - 33: {fileID: 3350350}
   - 23: {fileID: 2363052}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Luparm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -656,7 +657,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 495264}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: muzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -673,7 +674,7 @@ GameObject:
   - 4: {fileID: 408916}
   - 33: {fileID: 3364348}
   - 23: {fileID: 2336608}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Rthigh_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -688,8 +689,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 462652}
-  m_Layer: 12
-  m_Name: CameraParent
+  m_Layer: 8
+  m_Name: CameraParent2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -705,7 +706,7 @@ GameObject:
   - 4: {fileID: 486596}
   - 33: {fileID: 3341798}
   - 23: {fileID: 2333494}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_waist:centerLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -722,7 +723,7 @@ GameObject:
   - 4: {fileID: 439252}
   - 33: {fileID: 3340316}
   - 23: {fileID: 2300520}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_waist:leftWing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -739,7 +740,7 @@ GameObject:
   - 4: {fileID: 461298}
   - 33: {fileID: 3348966}
   - 23: {fileID: 2314246}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Rleg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -756,7 +757,7 @@ GameObject:
   - 4: {fileID: 486630}
   - 33: {fileID: 3389234}
   - 23: {fileID: 2337274}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Lshoulder_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -773,7 +774,7 @@ GameObject:
   - 4: {fileID: 482134}
   - 33: {fileID: 3321356}
   - 23: {fileID: 2354610}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_back:base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -790,7 +791,7 @@ GameObject:
   - 4: {fileID: 435234}
   - 33: {fileID: 3387940}
   - 23: {fileID: 2316390}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Lleg_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -807,7 +808,7 @@ GameObject:
   - 4: {fileID: 412620}
   - 33: {fileID: 3361180}
   - 23: {fileID: 2350816}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Lleg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -824,7 +825,7 @@ GameObject:
   - 4: {fileID: 481672}
   - 33: {fileID: 3382950}
   - 23: {fileID: 2327444}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Rleg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -841,7 +842,7 @@ GameObject:
   - 4: {fileID: 460462}
   - 33: {fileID: 3344262}
   - 23: {fileID: 2374792}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Rshoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -858,7 +859,7 @@ GameObject:
   - 4: {fileID: 455704}
   - 33: {fileID: 3385908}
   - 23: {fileID: 2304576}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Lleg_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -875,7 +876,7 @@ GameObject:
   - 4: {fileID: 413174}
   - 33: {fileID: 3300206}
   - 23: {fileID: 2327122}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Lleg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -890,7 +891,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 484774}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: muzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -905,7 +906,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 477176}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: PlayerTarget2
   m_TagString: Player2
   m_Icon: {fileID: 0}
@@ -922,7 +923,7 @@ GameObject:
   - 4: {fileID: 490414}
   - 33: {fileID: 3320296}
   - 23: {fileID: 2351246}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 25cn:tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -939,7 +940,7 @@ GameObject:
   - 4: {fileID: 497746}
   - 33: {fileID: 3352324}
   - 23: {fileID: 2327528}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Rleg_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -957,7 +958,7 @@ GameObject:
   - 33: {fileID: 3360934}
   - 23: {fileID: 2312982}
   - 114: {fileID: 11466110}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:waist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -974,7 +975,7 @@ GameObject:
   - 4: {fileID: 454012}
   - 33: {fileID: 3303170}
   - 23: {fileID: 2301050}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 25cn:baseLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -991,7 +992,7 @@ GameObject:
   - 4: {fileID: 496754}
   - 33: {fileID: 3338798}
   - 23: {fileID: 2325494}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Lleg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1008,7 +1009,7 @@ GameObject:
   - 4: {fileID: 455346}
   - 33: {fileID: 3384272}
   - 23: {fileID: 2395386}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:Rthigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1025,7 +1026,7 @@ GameObject:
   - 4: {fileID: 475610}
   - 33: {fileID: 3313796}
   - 23: {fileID: 2385202}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_back:topArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1042,7 +1043,7 @@ GameObject:
   - 4: {fileID: 461544}
   - 33: {fileID: 3323064}
   - 23: {fileID: 2315532}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_waist:rightWing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1059,7 +1060,7 @@ GameObject:
   - 4: {fileID: 414336}
   - 33: {fileID: 3341850}
   - 23: {fileID: 2355850}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: 05azalea_back:right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1076,7 +1077,7 @@ GameObject:
   - 4: {fileID: 400932}
   - 33: {fileID: 3308940}
   - 23: {fileID: 2351248}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: wall01_azalea:head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4059,15 +4060,19 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 133668}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe29795e3ac27bc4aabb89feae17e4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 157144, guid: c3337eab7810eae478878a2930ddbf6d, type: 2}
+  shot: {fileID: 157144, guid: 239ce7734dea4b0489c6e24befae6dc7, type: 2}
   muzzle: {fileID: 116628}
+  muzzle1: {fileID: 146334}
+  muzzle2: {fileID: 187762}
+  muzzle3: {fileID: 100166}
+  muzzle4: {fileID: 158116}
   muzzleFlash: {fileID: 152448, guid: 8d89404fa9c4a674a855ccd51cbadd92, type: 2}
-  cam2: {fileID: 2096514}
+  MainCamera2: {fileID: 2096514}
 --- !u!114 &11421516
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4215,6 +4220,25 @@ MonoBehaviour:
     type: 3}
   colorCorrectionSelectiveShader: {fileID: 4800000, guid: e515e0f94cefc4c0db54b45cba621544,
     type: 3}
+--- !u!114 &11428212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7927a7702b3754fbc5bfc6f2a40de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shot: {fileID: 157144, guid: 239ce7734dea4b0489c6e24befae6dc7, type: 2}
+  muzzle: {fileID: 116628}
+  muzzle1: {fileID: 146334}
+  muzzle2: {fileID: 187762}
+  muzzle3: {fileID: 100166}
+  muzzle4: {fileID: 158116}
+  muzzleFlash: {fileID: 152448, guid: 8d89404fa9c4a674a855ccd51cbadd92, type: 2}
+  MainCamera2: {fileID: 2096514}
 --- !u!114 &11431092
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4293,6 +4317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bfbc281ad4db434694205dff4042ea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MainCamera2: {fileID: 0}
   speed: 15
   jumpSpeed: 8
   gravity: 20
@@ -4376,6 +4401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aea41b9d28145f1438d3b4e6fdbc9451, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosion: {fileID: 0}
 --- !u!114 &11468536
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4510,7 +4536,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 133668}

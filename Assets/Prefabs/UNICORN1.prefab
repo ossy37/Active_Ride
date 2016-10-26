@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 493672}
   m_Layer: 8
   m_Name: PlayerTarget1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -812,13 +812,14 @@ GameObject:
   - 114: {fileID: 11490988}
   - 114: {fileID: 11401760}
   - 114: {fileID: 11481542}
+  - 114: {fileID: 11408100}
   m_Layer: 8
   m_Name: UNICORN1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &185084
 GameObject:
   m_ObjectHideFlags: 1
@@ -3451,18 +3452,19 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 183742}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b1d0f95964310794999c556b7b25c2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MainCamera1: {fileID: 2004772}
   shot: {fileID: 157144, guid: e8ec439bbb10b4942a8b3cecca8acfa3, type: 2}
   muzzle: {fileID: 182010}
   muzzle1: {fileID: 123188}
   muzzle2: {fileID: 0}
   muzzle3: {fileID: 0}
   muzzle4: {fileID: 0}
-  muzzleFlash: {fileID: 0}
+  muzzleFlash: {fileID: 152448, guid: f21f3b7ba967231478259de6aa3d5e85, type: 2}
 --- !u!114 &11401760
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3474,6 +3476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aa0388970a4c5e41b6a3a75c4a0e822, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MainCamera1: {fileID: 2004772}
   lockOnImage: {fileID: 0}
   enemyAp: {fileID: 0}
   gaugeImage: {fileID: 0}
@@ -3500,6 +3503,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee0dbf9eabc9f44586fe8bb6dc78de9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosion: {fileID: 0}
+--- !u!114 &11408100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88f5310fb55be8f4daaee84e1a11f88b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera1: {fileID: 2004772}
+  shot: {fileID: 157144, guid: e8ec439bbb10b4942a8b3cecca8acfa3, type: 2}
+  muzzle1: {fileID: 123188}
+  muzzle2: {fileID: 182010}
+  muzzleFlash: {fileID: 152448, guid: f21f3b7ba967231478259de6aa3d5e85, type: 2}
 --- !u!114 &11416372
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3525,6 +3545,7 @@ MonoBehaviour:
   speed: 15
   jumpSpeed: 8
   gravity: 20
+  boostPointMax: 0
   gaugeImage: {fileID: 0}
 --- !u!114 &11423070
 MonoBehaviour:

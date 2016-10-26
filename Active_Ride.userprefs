@@ -1,33 +1,62 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TitleScene.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs">
     <Files>
-      <File FileName="Assets\Scripts\TitleScene.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ShotPlayer_B2.cs" Line="4" Column="32" />
+      <File FileName="Assets\Scripts\PlayerShoot_P1.cs" Line="39" Column="1" />
+      <File FileName="Assets\Scripts\PlayerShoot1.cs" Line="4" Column="25" />
       <File FileName="Assets\Scripts\LockOn1.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ShotPlayer2.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LockOn2.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\CamVibrationManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Compass.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LockOn.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\lose1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\lose1.cs" Line="7" Column="1" />
       <File FileName="Assets\Scripts\lose2.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Marker.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Marker1.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Marker2.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ParticleAutoDestroy.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerAp.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerAp1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerAp1.cs" Line="103" Column="2" />
       <File FileName="Assets\Scripts\PlayerMotion.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerMotion1.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerMotion2.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerMove.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerMove1.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerRotate.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerShoot1.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ScreenOverlayManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ShotEnemy.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ShotPlayer1.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerShoot2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerShoot_B1.cs" Line="46" Column="1" />
+      <File FileName="Assets\Scripts\PlayerShoot_U2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerShoot_U1.cs" Line="41" Column="78" />
+      <File FileName="Assets\Scripts\PlayerShoot_B2.cs" Line="49" Column="78" />
+      <File FileName="Assets\Scripts\PlayerShoot_P2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BattleManager_Battle.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ShotPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ShotPlayer_B1.cs" Line="4" Column="37" />
+      <File FileName="Assets\Scripts\ShotPlayer_P1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ShotPlayer_U1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ShotPlayer_P2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ShotPlayer_U2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BoostEffect.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BattleManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AttackScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AutoDestroy.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BoostEffect2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraFade.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CanvasRotate.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ModalWindowController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\OnButtonClicked.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerAp2.cs" Line="102" Column="4" />
+      <File FileName="Assets\Scripts\CirclerMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ExplosionCllider.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerMove_B1.cs" Line="174" Column="15" />
+      <File FileName="Assets\Scripts\PlayerMove_B2.cs" Line="169" Column="20" />
+      <File FileName="Assets\Scripts\PlayerMove_P1.cs" Line="174" Column="15" />
+      <File FileName="Assets\Scripts\PlayerMove_P2.cs" Line="9" Column="28" />
+      <File FileName="Assets\Scripts\PlayerMove_U1.cs" Line="174" Column="82" />
+      <File FileName="Assets\Scripts\PlayerMove_U2.cs" Line="9" Column="1" />
+      <File FileName="Assets\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" Line="173" Column="62" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

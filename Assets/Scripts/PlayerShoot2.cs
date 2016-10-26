@@ -13,7 +13,7 @@ public class PlayerShoot2 : MonoBehaviour {
 	public Camera MainCamera2;
 	
 	float shotInterval = 0;
-	float shotIntervalMax = 0.5F;
+	float shotIntervalMax = 1.5F;
 	
 	AudioSource audioSource;
 	
@@ -43,6 +43,10 @@ public class PlayerShoot2 : MonoBehaviour {
 				
 				//マズルフラッシュを表示する
 				Instantiate(muzzleFlash, muzzle.transform.position, transform.rotation);
+				Instantiate(muzzleFlash, muzzle1.transform.position, transform.rotation);
+				Instantiate(muzzleFlash, muzzle2.transform.position, transform.rotation);
+				Instantiate(muzzleFlash, muzzle3.transform.position, transform.rotation);
+				Instantiate(muzzleFlash, muzzle4.transform.position, transform.rotation);
 				
 				//SEを再生する
 				//audioSource.Play();
