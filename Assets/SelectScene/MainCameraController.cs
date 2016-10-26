@@ -5,15 +5,15 @@ using System.Collections;
 public class MainCameraController: MonoBehaviour {
 
 	public float speedx;
-	public int MinHorizontalLane = -2;
+	/*public int MinHorizontalLane = -2;
 	public int MaxHorizontalLane = 2;
-
+	*/
 
 	public float LaneWidth = 15.0f;
 
 	CharacterController controller;
 
-	int targetHorizontalLane;
+	//int targetHorizontalLane;
 
 	Vector3 moveDirection = Vector3.zero;
 
@@ -22,10 +22,14 @@ public class MainCameraController: MonoBehaviour {
 	}
 
 	void Update () {
-		if (Input.GetKeyDown ("left"))
+		/*if (Input.GetKeyDown ("left"))
 			MoveToLeft ();
 		if (Input.GetKeyDown ("right"))
 			MoveToRight ();
+			*/
+
+		int targetHorizontalLane = DoublePlayerSelectController.Selectnumber1 ();
+
 
 		float ratioX = (targetHorizontalLane * LaneWidth - transform.position.x) / LaneWidth;
 		moveDirection.x = ratioX * speedx;
@@ -37,7 +41,7 @@ public class MainCameraController: MonoBehaviour {
 
 	}
 
-	public void MoveToLeft(){
+	/*public void MoveToLeft(){
 		if (targetHorizontalLane > MinHorizontalLane)
 			targetHorizontalLane--;
 	}
@@ -45,6 +49,6 @@ public class MainCameraController: MonoBehaviour {
 	public void MoveToRight(){
 		if (targetHorizontalLane < MaxHorizontalLane)
 			targetHorizontalLane++;
-	}
+	}*/
 		
 }
