@@ -1,12 +1,10 @@
 fileFormatVersion: 2
 guid: fa6ab101639d777418abffc07b484063
-timeCreated: 1470724086
+timeCreated: 1448270898
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences:
-  - camera: {instanceID: 0}
-  - gaugeImage: {instanceID: 0}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

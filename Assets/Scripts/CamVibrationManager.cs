@@ -31,7 +31,7 @@ public class CamVibrationManager : MonoBehaviour {
 			
 			vibration -= Time.deltaTime;
 		} else {
-			//transform.localPosition = defaultPosition;
+			transform.localPosition = defaultPosition;
 		}
 	}
 }
