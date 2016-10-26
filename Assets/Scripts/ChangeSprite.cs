@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class ChangeSprite : MonoBehaviour {
+public class ChangeSprite1 : MonoBehaviour {
 
     SpriteRenderer MainSpriteRenderer;
 
@@ -16,13 +16,14 @@ public class ChangeSprite : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        /*
         MainSpriteRenderer = SpritegameObject.GetComponent<SpriteRenderer>();
 
-        Character_Num = new System.Random().Next(3);
+        Character_Number = new System.Random().Next(3);
 
-        Debug.Log(Character_Num);
+        Debug.Log(Character_Number);
 
-        switch (Character_Num)
+        switch (Character_Number)
         {
             case 0:
                 MainSpriteRenderer.sprite = Sprite_BAN;
@@ -35,8 +36,8 @@ public class ChangeSprite : MonoBehaviour {
                 break;
             default: break;
         }
-
-	}
+        */
+    }
 	
 	// Update is called once per frame
 	void Update () {

@@ -14,6 +14,11 @@ public class FadeScript : MonoBehaviour {
 
     public GameObject canvas;
     public GameObject background;
+    private GameObject ObjToFadeIn;
+
+    public GameObject BANS_obj;
+    public GameObject PHEN_obj;
+    public GameObject UNIC_obj;
 
     // Use this for initialization
     void Start () {
@@ -23,11 +28,38 @@ public class FadeScript : MonoBehaviour {
         canvas.SetActive(false);
         background.SetActive(false);
 
+        canvas.SetActive(false);
+        background.SetActive(false);
+        BANS_obj.SetActive(false);
+        PHEN_obj.SetActive(false);
+        UNIC_obj.SetActive(false);
+
+        int Character_Num = new System.Random().Next(3);
+
+        Debug.Log(Character_Num);
+
+        switch (Character_Num)
+        {
+            case 0:
+                ObjToFadeIn = BANS_obj;
+                break;
+            case 1:
+                ObjToFadeIn = PHEN_obj;
+                break;
+            case 2:
+                ObjToFadeIn = UNIC_obj;
+                break;
+            default: break;
+        }
+
         red = GetComponent<Image>().color.r;
         green = GetComponent<Image>().color.g;
         blue = GetComponent<Image>().color.b;
         alpha = GetComponent<Image>().color.a;
-       
+
+        //ObjToFadeIn = ChangePrefab.GetGameObj();
+
+
     }
 
     // Update is called once per frame
@@ -53,6 +85,7 @@ public class FadeScript : MonoBehaviour {
                 wait();
                 canvas.SetActive(true);
                 background.SetActive(true);
+                ObjToFadeIn.SetActive(true);
 
                 isFadein = false;
                 isFadeout = false;
