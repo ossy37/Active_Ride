@@ -28,7 +28,7 @@ public class CanvasRotate : MonoBehaviour {
         foreach (var d in Descript)
         {
             Vector3 pos = d.description.transform.position;
-            pos.x = 400;
+            pos.x = 350;
             d.description.transform.position = pos;
 
         }
@@ -173,7 +173,7 @@ public class CanvasRotate : MonoBehaviour {
             else
             {
                 Vector3 pos = d.description.transform.position;
-                pos.x = 400;
+                pos.x = 350;
                 d.description.transform.position = pos;
             }
         }
